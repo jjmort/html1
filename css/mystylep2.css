@@ -24,7 +24,7 @@ table {
     padding-bottom: 20px;
     padding-top: 20px;
     text-align: left
-    border-top: 1px solid #22262e;
+
 }
 
 
@@ -107,7 +107,12 @@ tr:hover td {
   color: #C9302C;
   border-top: 1px solid #22262e;
 }
- 
+
+.backgroundred {
+		background-color: red;
+
+}
+
 td {
   background:#FFFFFF;
   padding:20px;

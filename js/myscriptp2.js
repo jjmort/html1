@@ -19,7 +19,7 @@ for (var i=0;i<table_rows.length; i++){
 	//console.log(mytd);
 	//mytd.innerHTML;
 	if (searchtd == tdtext) {
-		mytd.style.backgroundColor = "#D9EDF7";
+		mytd.className = "backgroundred";
 	}else {
 		mytd.style.backgroundColor = "transparent";
 	}
