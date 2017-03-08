@@ -1,3 +1,5 @@
+document.getElementById("mydate").innerHTML = Date();
+
 function mySearch(){
 
 var mytable, searchBox, table_rows, searchtd, loopcount;
