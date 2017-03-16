@@ -2,31 +2,40 @@
 
 body {
     border: 1px solid black;
-    padding: 10px;
     background-color: #93DCFF;
 }
 
 .top_banner {
+  background-image: url('../images/water.JPG');
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-image: url('../images/water.JPG');
-  font-size: 30px;
-   font-weight: 400;
-   font-style:normal;
-   color: white;
    font-family: "Roboto", helvetica, arial, sans-serif;
    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
    text-transform:uppercase;
+   height: 200px;
+  margin-bottom: 10px;
 
 }
 
-.profile_pic {
+.top_bannerwriting {
+font-size: 30px;
+   font-weight: 400;
+   font-style:normal;
+   font-family: "Roboto", helvetica, arial, sans-serif;
+   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+   text-transform:uppercase;
+   padding: 10px;
+   color: ghostwhite;
+
+}
+
+/*.profile_pic {
   background-image: url('..images/Promo%20Photo.png'); 
   width: 200px; 
   height: 200px; 
-  opacity: 1;"
+  opacity: 1;
 
-}
+}*/
 
 
 h1	{
@@ -36,10 +45,23 @@ h1	{
    font-family: "Roboto", helvetica, arial, sans-serif;
    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
    text-transform:uppercase;
+   padding: 10px;
 }
 
 input {  
     margin-bottom: 10px;
+    padding: 5px;
+
+}
+
+.writehere_input {
+    margin-left: 10px;
+
+}
+
+.searchhere_input {
+    margin-left: 10px;
+
 }
 
 table {
@@ -49,6 +71,8 @@ table {
     text-align: left
     border-right: solid-black;
     border-top: solid-black;
+    margin-left: 10px;
+    margin-right: 10px;
 
 }
 
@@ -56,13 +80,14 @@ table {
 	float: right;
 	font-size:10px;
 	font-weight:normal;	
+  padding: 10px;
 	
 }
 #myfooter {
 	float: : left;
 	font-size:10px;
 	font-weight:normal;
-	
+	padding: 10px;
 }
 
 
