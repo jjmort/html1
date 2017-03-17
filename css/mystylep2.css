@@ -3,17 +3,19 @@
 body {
     border: 1px solid black;
     background-color: #93DCFF;
+    width: 100%;
+    height: 100%;
 }
 
 .top_banner {
-  background-image: url('../images/water.JPG');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-   font-family: "Roboto", helvetica, arial, sans-serif;
-   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
-   text-transform:uppercase;
+   width: 100%;
    height: 200px;
   margin-bottom: 10px;
+    overflow: hidden;
+    background: url("../images/water.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 
 }
 
