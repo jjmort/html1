@@ -28,16 +28,18 @@ font-size: 30px;
    text-transform:uppercase;
    padding: 10px;
    color: ghostwhite;
-
+   text-align: right;
 }
 
-/*.profile_pic {
-  background-image: url('..images/Promo%20Photo.png'); 
+.profile_pic {
+  background-image: url('../images/Promo%20Photo.png'); 
   width: 200px; 
   height: 200px; 
   opacity: 1;
-
-}*/
+  border-radius: 50%;
+  background-size: cover;
+  background-position: 50% 50%;
+}
 
 
 h1	{
