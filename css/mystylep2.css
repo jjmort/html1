@@ -9,7 +9,7 @@ body {
 
 .top_banner {
    width: 100%;
-   height: 200px;
+   height: 250px;
   margin-bottom: 10px;
     overflow: hidden;
     background: url("../images/water.JPG");
@@ -31,6 +31,15 @@ font-size: 30px;
    text-align: right;
 }
 
+.top_para_div {
+  position: relative;
+  float: right;
+  margin-right: 20px;
+  /*margin-top: 200px; */
+  padding: 10px;
+
+}
+
 .profile_pic {
   background-image: url('../images/Promo%20Photo.png'); 
   width: 200px; 
@@ -39,6 +48,10 @@ font-size: 30px;
   border-radius: 50%;
   background-size: cover;
   background-position: 50% 50%;
+  position: relative;
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px;
 }
 
 
