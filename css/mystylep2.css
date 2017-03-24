@@ -20,18 +20,19 @@ body {
 }
 
 .top_bannerwriting {
-  font-size: 30px;
+  font-size: 37px;
    font-weight: 400;
    font-style:normal;
    font-family: "Roboto", helvetica, arial, sans-serif;
    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
    text-transform:uppercase;
-   padding: 10px;
+   padding: 0px;
    color: ghostwhite;
    text-align: right;
    transform: rotate(90deg);
     transform-origin: left top 0;
-    float: right;
+    margin-right: -231px;
+    margin-top: -21px;
 }
 
 .top_para_div {
@@ -39,7 +40,7 @@ body {
   float: right;
   margin-right: 20px;
   /*margin-top: 200px; */
-  padding: 10px;
+  padding: 0px;
 
 }
 
@@ -154,6 +155,16 @@ td {
   font-size:18px;
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
   border-right: 1px solid #C1C3D1;
+}
+
+.musicFrame {
+  width: 100%; 
+  height: 300; 
+  scrolling: no; 
+  frameborder: no; 
+  padding-bottom: 5px;
+
+
 }
 
 
