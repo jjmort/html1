@@ -20,7 +20,7 @@ body {
 }
 
 .top_bannerwriting {
-font-size: 30px;
+  font-size: 30px;
    font-weight: 400;
    font-style:normal;
    font-family: "Roboto", helvetica, arial, sans-serif;
@@ -29,6 +29,9 @@ font-size: 30px;
    padding: 10px;
    color: ghostwhite;
    text-align: right;
+   transform: rotate(90deg);
+    transform-origin: left top 0;
+    float: right;
 }
 
 .top_para_div {
