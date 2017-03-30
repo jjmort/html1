@@ -2,19 +2,8 @@ function myMusicFrame() {
 
 	var musiclist = [];
 
-		musiclist.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/309904392&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true");
-
-		musiclist.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/309904260&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true");
-
-		musiclist.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308571386&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true");
-
-		musiclist.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/297834937&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true");
-
-		musiclist.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/272708756&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true");
-
-		musiclist.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/261123953&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true");
-
-		musiclist.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/257763053&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true");
+		
+		musiclist.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/220861259&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true");
 
 		musiclist.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/312699279&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true");
 
@@ -28,7 +17,15 @@ function myMusicFrame() {
 
 		musiclist.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221829509&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true");
 
-		musiclist.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/220861259&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true");
+		musiclist.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308571386&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true");
+
+		musiclist.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/297834937&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true");
+
+		musiclist.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/272708756&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true");
+
+		musiclist.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/261123953&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true");
+
+		musiclist.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/257763053&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true");
 
 		var musiclistDiv = document.getElementById("musiclistDiv");
 

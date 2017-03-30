@@ -2,15 +2,17 @@
 
 body {
     border: 1px solid black;
-    background-color: #93DCFF;
     width: 100%;
     height: 100%;
+    background: url(".../images/inmotus%20background%201.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
 }
 
 .top_banner {
    width: 100%;
    height: 250px;
-  margin-bottom: 10px;
+    margin-bottom: 10px;
     overflow: hidden;
     background: url("../images/water.JPG");
     background-size: cover;
@@ -20,7 +22,7 @@ body {
 }
 
 .top_bannerwriting {
-  font-size: 37px;
+   font-size: 37px;
    font-weight: 400;
    font-style:normal;
    font-family: "Roboto", helvetica, arial, sans-serif;
@@ -30,9 +32,9 @@ body {
    color: ghostwhite;
    text-align: right;
    transform: rotate(90deg);
-    transform-origin: left top 0;
-    margin-right: -231px;
-    margin-top: -21px;
+   transform-origin: left top 0;
+   margin-right: -231px;
+   margin-top: -21px;
 }
 
 .top_para_div {
@@ -60,7 +62,7 @@ body {
 
 
 h1	{
-	font-size: 30px;
+   font-size: 30px;
    font-weight: 400;
    font-style:normal;
    font-family: "Roboto", helvetica, arial, sans-serif;
@@ -69,20 +71,16 @@ h1	{
    padding: 10px;
 }
 
-input {  
-    margin-bottom: 10px;
-    padding: 5px;
-
+.allsearch {
+    text-align: center;
 }
 
 .writehere_input {
-    margin-left: 10px;
-
+   
 }
 
 .searchhere_input {
-    margin-left: 10px;
-
+    margin-left: 5px;
 }
 
 table {
@@ -98,48 +96,48 @@ table {
 }
 
 #mydate {
-	float: right;
-	font-size:10px;
-	font-weight:normal;	
-  padding: 10px;
+  	float: right;
+  	font-size:10px;
+  	font-weight:normal;	
+    padding: 10px;
 	
 }
 #myfooter {
-	float: : left;
-	font-size:10px;
-	font-weight:normal;
-	padding: 10px;
+  	float: : left;
+  	font-size:10px;
+  	font-weight:normal;
+  	padding: 10px;
 }
 
 
 /*FANCY CSS*/ 
 
 .table-fill {
-  background: white;
-  border-radius:3px;
-  border-collapse: collapse;
-  height: 320px;
-  margin: auto;
-  max-width: 600px;
-  padding:5px;
-  width: 100%;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  animation: float 5s infinite;
+    background: white;
+    border-radius:3px;
+    border-collapse: collapse;
+    height: 320px;
+    margin: auto;
+    max-width: 600px;
+    padding:5px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite;
 }
  
 
 tr {
-  border: 1px solid #C1C3D1;
-  color:#0c0d14;
-  font-size:16px;
-  font-weight:normal;
-  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+    border: 1px solid #C1C3D1;
+    color:#0c0d14;
+    font-size:16px;
+    font-weight:normal;
+    text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
 }
  
 tr:hover td {
-  background:#D9EDF7;
-  color: #C9302C;
-  border-top: 1px solid #22262e;
+    background:#D9EDF7;
+    color: #C9302C;
+    border-top: 1px solid #22262e;
 }
 
 .backgroundred {
@@ -148,23 +146,28 @@ tr:hover td {
 }
 
 td {
-  background:#FFFFFF;
-  padding:20px;
-  vertical-align:middle;
-  font-weight:300;
-  font-size:18px;
-  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
-  border-right: 1px solid #C1C3D1;
+    background:#FFFFFF;
+    padding:20px;
+    vertical-align:middle;
+    font-weight:300;
+    font-size:18px;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    border-right: 1px solid #C1C3D1;
+}
+
+#musiclistDiv {
+    width: 100%;
+    text-align: center;
+
 }
 
 .musicFrame {
-  width: 100%; 
-  height: 300; 
-  scrolling: no; 
-  frameborder: no; 
-  padding-bottom: 5px;
-
-
+    width: 70%; 
+    height: 150px; 
+    scrolling: no; 
+    frameborder: no; 
+    padding-bottom: 5px;
+  
 }
 
 
