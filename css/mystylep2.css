@@ -4,15 +4,13 @@ body {
     border: 1px solid black;
     width: 100%;
     height: 100%;
-    background: url(".../images/inmotus%20background%201.jpg");
-    background-repeat: repeat-y;
-    background-size: cover;
+    background: url("../images/inmotus%20background.jpg");
+    
 }
 
 .top_banner {
    width: 100%;
    height: 250px;
-    margin-bottom: 10px;
     overflow: hidden;
     background: url("../images/water.JPG");
     background-size: cover;
@@ -59,6 +57,38 @@ body {
   margin-left: 25px;
   margin-top: 25px;
 }
+
+.pick_genre{
+  text-align: center;
+  padding: 7px;
+  margin-bottom: 20px;
+  background-color: grey;
+}
+
+#all{
+  margin-right: 30px;
+}
+
+#minimal{
+  margin-right: 30px;
+}
+
+#techno{
+  margin-right: 30px;
+}
+
+#house{
+  margin-right: 30px;
+}
+
+#deephouse{
+  margin-right: 30px;
+}
+
+#hiphop{
+  margin-right: 30px;
+}
+
 
 
 h1	{
@@ -164,8 +194,6 @@ td {
 .musicFrame {
     width: 70%; 
     height: 150px; 
-    scrolling: no; 
-    frameborder: no; 
     padding-bottom: 5px;
   
 }
