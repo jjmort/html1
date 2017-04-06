@@ -62,31 +62,45 @@ body {
   text-align: center;
   padding: 7px;
   margin-bottom: 20px;
-  background-color: grey;
+  background-color: #D2D4DC;
+  border-style: groove;
+  border-color: #D2D4DC;
 }
 
 #all{
   margin-right: 30px;
+  border-style: solid;
+  border-color: #828388;
 }
 
 #minimal{
   margin-right: 30px;
+  border-style: solid;
+  border-color: #828388;
 }
 
 #techno{
   margin-right: 30px;
+  border-style: solid;
+  border-color: #828388;
 }
 
 #house{
   margin-right: 30px;
+  border-style: solid;
+  border-color: #828388;
 }
 
 #deephouse{
   margin-right: 30px;
+  border-style: solid;
+  border-color: #828388;
 }
 
 #hiphop{
   margin-right: 30px;
+  border-style: solid;
+  border-color: #828388;
 }
 
 
