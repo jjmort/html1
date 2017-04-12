@@ -97,7 +97,14 @@ body {
   border-color: #828388;
 }
 
-#hiphop{
+#downtempo {
+  margin-right: 30px;
+  border-style: solid;
+  border-color: #828388;
+}
+  
+
+#mixes{
   margin-right: 30px;
   border-style: solid;
   border-color: #828388;
