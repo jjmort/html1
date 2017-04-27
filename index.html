@@ -22,13 +22,13 @@
 
 		<div class="pick_genre">
 
-			<button type="button" class="btn btn-default" id="all">All</button>
-			<button type="button" class="btn btn-default" id="minimal">Minimal</button>
-			<button type="button" class="btn btn-default" id="house">House</button>
-			<button type="button" class="btn btn-default" id="deephouse">Deep House </button>
-			<button type="button" class="btn btn-default" id="techno">Techno</button>
-			<button type="button" class="btn btn-default" id=hiphop>Hip-Hop</button>
-			<button type="button" class="btn btn-default" id=mixes>Mixes</button>
+			<button type="button" class="btn btn-default" id="all" onclick="toggleAll()">all</button>
+			<button type="button" class="btn btn-default" id="minimal" onclick="toggleMinimal()">minimal</button>
+			<button type="button" class="btn btn-default" id="house" onclick="toggleHouse()">house</button>
+			<button type="button" class="btn btn-default" id="deep" onclick="toggleDeep()">deep</button>
+			<button type="button" class="btn btn-default" id="techno" onclick="toggleTechno()">techno</button>
+			<button type="button" class="btn btn-default" id="downtempo" onclick="toggleDowntempo()">downtempo</button>
+			<button type="button" class="btn btn-default" id="mixes" onclick="toggleMixes()">mixes</button>
 
 		</div>	
 
@@ -50,9 +50,27 @@
 				</table>
 		</div>
 
-			<div id="musiclistDiv">
-				<!--<iframe class="musicFrame" id="mymusicFrame" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/261123953&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>-->
-			</div>
+				<div id="musiclistDivAll">
+					
+				</div>
+
+				<div id="musiclistDivMinimal">
+				</div>
+
+				<div id="musiclistDivHouse">
+				</div>
+
+				<div id="musiclistDivDeep">
+				</div>
+
+				<div id="musiclistDivTechno">
+				</div>
+
+				<div id="musiclistDivDownTempo">
+				</div>
+
+				<div id="musiclistDivMixes">
+				</div>
 
 			<div>
 				<p>

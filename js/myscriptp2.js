@@ -1,3 +1,23 @@
+function toggleMinimal() {
+	var divMinimal = document.getElementById('musiclistDivMinimal');
+    if (divMinimal.style.display === 'none') {
+        divMinimal.style.display = 'block';
+    } else {
+        divMinimal.style.display = 'none';
+    }
+    //console.log(divAll);
+}
+
+function toggleAll() {
+	var divAll = document.getElementById('musiclistDivAll');
+    if (divAll.style.display === 'none') {
+        divAll.style.display = 'block';
+    } else {
+        divAll.style.display = 'block';
+    }
+    //console.log(divAll);
+}
+
 function myMusicFrame() {
 
 	var musiclistMixes = [];
@@ -30,17 +50,17 @@ function myMusicFrame() {
 
 		musiclistDownTempo.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314928383&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true")
 
-	var musiclistDeephouse = [];
+	var musiclistDeep= [];
 
-		musiclistDeephouse.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308571386&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true")
+		musiclistDeep.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308571386&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true")
 
-		musiclistDeephouse.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/302985014&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true")
+		musiclistDeep.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/302985014&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true")
 
-		musiclistDeephouse.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/297065386&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true")
+		musiclistDeep.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/297065386&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true")
 
-		musiclistDeephouse.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/313473755&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true")
+		musiclistDeep.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/313473755&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true")
 
-		musiclistDeephouse.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314905059&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true")
+		musiclistDeep.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314905059&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true")
 
 	var musiclistHouse = [];
 
@@ -104,19 +124,33 @@ function myMusicFrame() {
 
 		musiclistAll.push("https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314905059&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true")
 
-		var musiclistDiv = document.getElementById("musiclistDiv");
+			var musiclistDivAll = document.getElementById("musiclistDivAll");
 
-		for (var i = musiclistAll.length - 1; i >= 0; i--) {
+			for (var i = musiclistAll.length - 1; i >= 0; i--) {
 
-			var iframe = document.createElement('iframe');
+				var iframeAll = document.createElement('iframe');
 
-			iframe.src = musiclistAll[i];
+				iframeAll.src = musiclistAll[i];
 
-			iframe.className = "musicFrame"; 
+				iframeAll.className = "musicFrame"; 
 
-			musiclistDiv.appendChild(iframe);
-	
-		}
+				musiclistDivAll.appendChild(iframeAll);
+		
+			}
+			
+			/*var musiclistDivMinimal = document.getElementById("musiclistDivMinimal");
+
+			for (var f = musiclistMinimal.length - 1; f >= 0; f--) {
+
+				var iframeMinimal = document.createElement('iframe');
+
+				iframeMinimal.src = musiclistAll[i];
+
+				iframeMinimal.className = "musicFrame"; 
+
+				musiclistDivAll.appendChild(iframeMinimal);
+		
+			} */
 }
 
 document.getElementById("mydate").innerHTML = Date();

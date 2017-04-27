@@ -1,4 +1,45 @@
 
+    var divMinimal = document.getElementById('musiclistDivMinimal');
+    if (divMinimal.style.display === 'none') {
+        divMinimal.style.display = 'block';
+    } else {
+        divMinimal.style.display = 'none';
+    }
+
+    var divHouse = document.getElementById('musiclistDivHouse');
+    if (divHouse.style.display === 'none') {
+        divHouse.style.display = 'block';
+    } else {
+        divHouse.style.display = 'none';
+    }
+
+    var divDeepHouse = document.getElementById('musiclistDivDeepHouse');
+    if (divDeepHouse.style.display === 'none') {
+        divDeepHouse.style.display = 'block';
+    } else {
+        divDeepHouse.style.display = 'none';
+    }
+
+    var divTechno = document.getElementById('musiclistDivTechno');
+    if (divTechno.style.display === 'none') {
+        divTechno.style.display = 'block';
+    } else {
+        divTechno.style.display = 'none';
+    }
+
+    var divDowntempo = document.getElementById('musiclistDivDowntempo');
+    if (divDowntempo.style.display === 'none') {
+        divDowntempo.style.display = 'block';
+    } else {
+        divDowntempo.style.display = 'none';
+    }
+
+    var divMixes = document.getElementById('musiclistDivMixes');
+    if (divMixes.style.display === 'none') {
+        divMixes.style.display = 'block';
+    } else {
+        divMixes.style.display = 'none';
+    }
 
 
 Music Strings
@@ -46,9 +87,7 @@ Music Strings
 		- Ed Herbst - Deep Afterhour Nr. 270 - Mix (30/3/17)
 			https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314905059&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true
 
-
-
-	Deep House
+	Deep 
 
 		- The House of CJLO Visit 4 with Dexter Crowe & Jahra - Mix (Feb 17)		
 			https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308571386&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true
@@ -65,7 +104,7 @@ Music Strings
 		- Ed Herbst - Deep Afterhour Nr. 270 - Mix (30/3/17)
 			https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314905059&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true	
 
-	DownTempo
+	Downtempo
 
 		- Ashok Rose - Pétale (produit par tknkkrt) (Feb 17)
 			https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303526366&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true
