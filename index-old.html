@@ -22,13 +22,13 @@
 
 		<div class="pick_genre">
 
-			<button type="button" class="btn btn-default" id="all" onclick="listMusic('All')">all</button>
-			<button type="button" class="btn btn-default" id="minimal" onclick="listMusic('Minimal')">minimal</button>
-			<button type="button" class="btn btn-default" id="house" onclick="listMusic('House')">house</button>
-			<button type="button" class="btn btn-default" id="deep" onclick="listMusic('Deep')">deep</button>
-			<button type="button" class="btn btn-default" id="techno" onclick="listMusic('Techno')">techno</button>
-			<button type="button" class="btn btn-default" id="downtempo" onclick="listMusic('DownTempo')">downtempo</button>
-			<button type="button" class="btn btn-default" id="mixes" onclick="listMusic('Mixes')">mixes</button>
+			<button type="button" class="btn btn-default" id="all" onclick="toggleAll()">all</button>
+			<button type="button" class="btn btn-default" id="minimal" onclick="toggleMinimal()">minimal</button>
+			<button type="button" class="btn btn-default" id="house" onclick="toggleHouse()">house</button>
+			<button type="button" class="btn btn-default" id="deep" onclick="toggleDeep()">deep</button>
+			<button type="button" class="btn btn-default" id="techno" onclick="toggleTechno()">techno</button>
+			<button type="button" class="btn btn-default" id="downtempo" onclick="toggleDowntempo()">downtempo</button>
+			<button type="button" class="btn btn-default" id="mixes" onclick="toggleMixes()">mixes</button>
 
 		</div>	
 
@@ -50,7 +50,26 @@
 				</table>
 		</div>
 
-				<div id="musiclistDivGenres">
+				<div id="musiclistDivAll">
+					
+				</div>
+
+				<div id="musiclistDivMinimal">
+				</div>
+
+				<div id="musiclistDivHouse">
+				</div>
+
+				<div id="musiclistDivDeep">
+				</div>
+
+				<div id="musiclistDivTechno">
+				</div>
+
+				<div id="musiclistDivDownTempo">
+				</div>
+
+				<div id="musiclistDivMixes">
 				</div>
 
 			<div>
