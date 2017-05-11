@@ -12,6 +12,7 @@ var musiclistGenres = [];
 			//var musiclistDivMixes = document.getElementById("musiclistDivMixes");
 		
 		musiclistGenres["DownTempo"] = ["https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303526366&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/307935483&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
 			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308250247&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
 			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/313872241&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
 			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314928383&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"];
@@ -29,11 +30,13 @@ var musiclistGenres = [];
 		musiclistGenres["House"] = ["https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/297065386&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
 			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/307864972&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
 			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/313473755&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
-			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314905059&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"];
+			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314905059&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/319446540&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"];
 
 			//var musiclistDivHouse = document.getElementById("musiclistDivHouse");
 
-		musiclistGenres["Techno"] = ["https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/280037209&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"];
+		musiclistGenres["Techno"] = ["https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/280037209&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/319451803&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"];
 
 			//var musiclistDivTechno = document.getElementById("musiclistDivTechno");
 
@@ -54,6 +57,7 @@ var musiclistGenres = [];
 			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303526366&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
 			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/297065386&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
 			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/307864972&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/307935483&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
 			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308250247&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
 			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/312699279&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
 			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/313872241&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
@@ -61,7 +65,9 @@ var musiclistGenres = [];
 			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314223197&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
 			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/313826184&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
 			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314928383&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
-			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314905059&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"];
+			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314905059&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/319446540&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+			"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/319451803&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"];
 
 			console.log(musiclistGenres);
 
@@ -69,34 +75,37 @@ function listMusic(list) {
 	//alert(list);
 	if (list === 'All'){
 		myMusicFrame(musiclistGenres['All']);
-	}
+	} 
 	if (list === 'Minimal'){
 		myMusicFrame(musiclistGenres['Minimal']);
-	}
+	} 
 	if (list === 'House'){
 		myMusicFrame(musiclistGenres['House']);
-	}
+	} 
 	if (list === 'Deep'){
 		myMusicFrame(musiclistGenres['Deep']);
-	}
+	} 
 	if (list === 'Techno'){
 		myMusicFrame(musiclistGenres['Techno']);
-	}
+	} 
 	if (list === 'DownTempo'){
 		myMusicFrame(musiclistGenres['DownTempo']);
-	}
+	} 
 	if (list === 'Mixes'){
 		myMusicFrame(musiclistGenres['Mixes']);
-	}
+	} 
 }
 
 function myMusicFrame(songs) {
+		//alert("Minimal");
 		console.log(songs)
 			//var musiclistDivAll = document.getElementById("musiclistDivAll");
 
 			var musiclistDivGenres = document.getElementById("musiclistDivGenres");
 
-			musiclistGenres.innerHTML = "";
+			while (musiclistDivGenres.firstChild) {
+    			musiclistDivGenres.removeChild(musiclistDivGenres.firstChild);
+			}
 
 			for (var i = songs.length - 1; i >= 0; i--) {
 

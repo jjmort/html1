@@ -1,47 +1,3 @@
-
-    var divMinimal = document.getElementById('musiclistDivMinimal');
-    if (divMinimal.style.display === 'none') {
-        divMinimal.style.display = 'block';
-    } else {
-        divMinimal.style.display = 'none';
-    }
-
-    var divHouse = document.getElementById('musiclistDivHouse');
-    if (divHouse.style.display === 'none') {
-        divHouse.style.display = 'block';
-    } else {
-        divHouse.style.display = 'none';
-    }
-
-    var divDeepHouse = document.getElementById('musiclistDivDeepHouse');
-    if (divDeepHouse.style.display === 'none') {
-        divDeepHouse.style.display = 'block';
-    } else {
-        divDeepHouse.style.display = 'none';
-    }
-
-    var divTechno = document.getElementById('musiclistDivTechno');
-    if (divTechno.style.display === 'none') {
-        divTechno.style.display = 'block';
-    } else {
-        divTechno.style.display = 'none';
-    }
-
-    var divDowntempo = document.getElementById('musiclistDivDowntempo');
-    if (divDowntempo.style.display === 'none') {
-        divDowntempo.style.display = 'block';
-    } else {
-        divDowntempo.style.display = 'none';
-    }
-
-    var divMixes = document.getElementById('musiclistDivMixes');
-    if (divMixes.style.display === 'none') {
-        divMixes.style.display = 'block';
-    } else {
-        divMixes.style.display = 'none';
-    }
-
-
 Music Strings
 
 	Minimal
@@ -72,6 +28,9 @@ Music Strings
 		- 254: Sonic Future (BRA) - Mix (Oct 16)
 			https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/280037209&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true
 
+		- Download: Ohm & Octal Industries - Athena (26/4/17)
+			https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/319451803&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true
+
 
 	House
 
@@ -86,6 +45,9 @@ Music Strings
 
 		- Ed Herbst - Deep Afterhour Nr. 270 - Mix (30/3/17)
 			https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314905059&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true
+
+		- Adryiano - Do Not Brag [Shall Not Fade] (26/4/17) 
+			https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/319446540&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true
 
 	Deep 
 
@@ -109,6 +71,9 @@ Music Strings
 		- Ashok Rose - Pétale (produit par tknkkrt) (Feb 17)
 			https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303526366&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true
 
+		- Premiere: Kid Sublime Feat. Han Litz - Wings Of Love (Feb 17)
+			https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/307935483&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true
+
 		- Endrixx - Porsche (Ft. Chanceko) (Mar 17)
 
 			https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308250247&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true
@@ -118,6 +83,8 @@ Music Strings
 
 		- Premiere: Öona Dahl - Wait. lifted (30/3/17)
 			https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314928383&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true
+
+
 
 	Mixes
 
@@ -171,6 +138,9 @@ Music Strings
 		- Unknown Artist [QNQN9265] - Playlist (Feb 17)
 			https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/297065386&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true
 
+		- Premiere: Kid Sublime Feat. Han Litz - Wings Of Love (Feb 17)
+			https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/307935483&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true
+
 		- Blutch - Blu Sky (Terrence Parker Remix) (Mar 17)
 			https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/307864972&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true
 
@@ -198,3 +168,9 @@ Music Strings
 
 		- Ed Herbst - Deep Afterhour Nr. 270 - Mix (30/3/17)
 			https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314905059&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true
+
+		- Adryiano - Do Not Brag [Shall Not Fade] (26/4/17) 
+			https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/319446540&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true
+
+		- Download: Ohm & Octal Industries - Athena (26/4/17)
+			https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/319451803&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true
