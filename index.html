@@ -20,7 +20,7 @@
 
 		</div>
 
-		<div class="pick_genre">
+		<div class="pick_genre" id="music_div">
 
 			<button type="button" class="btn btn-default" id="all" onclick="listMusic('All')">all</button>
 			<button type="button" class="btn btn-default" id="minimal" onclick="listMusic('Minimal')">minimal</button>
@@ -34,20 +34,18 @@
 
 
 		<div class= "allsearch" style="position: relative;">
-				<input class= "writehere_input" type="text" name="fullName" id="text_transfer" placeholder="Write here..."></input>
 
+				<!--<input class= "writehere_input" type="text" name="fullName" id="text_transfer" placeholder="Write here..."></input>
 				<button class="btn btn-default btn-sm" onclick="showmyID()">GO</button>
+				-->
+
+			<input class="searchhere_input" type="search" id="search_music" placeholder="Search...">
 				
+			<button class="btn btn-default btn-sm" onclick="mySearch()">GO</button>	
 
-				<input class="searchhere_input" type="search" id="searchNow" placeholder="Search here...">
-				<button class="btn btn-default btn-sm" onclick="mySearch()">GO</button>	
-				<p id="demoSearch"></p>
-
-
-
-				<table class="table" id="table_rows">
 					
-				</table>
+			</table>
+
 		</div>
 
 			<div id="musiclistDivGenres">

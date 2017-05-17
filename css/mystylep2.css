@@ -138,6 +138,7 @@ h1	{
 
 .allsearch {
     text-align: center;
+    padding-right: 10px;
 }
 
 .writehere_input {
@@ -146,6 +147,7 @@ h1	{
 
 .searchhere_input {
     margin-left: 5px;
+    padding-right: 5px;
 }
 
 table {
