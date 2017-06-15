@@ -179,50 +179,38 @@ function myMusicFrame(songs) {
 				musiclistDivGenres.appendChild(iframeAll);
 		
 			}
-
-
-			/*for (var i = myMusicFrame.length - 1; i >= 0; i--) {
-
-				var iframeAll = document.createElement('iframe');
-
-				iframeAll.src = myMusicFrame[i];
-
-				iframeAll.className = "musicFrame"; 
-
-				musicFrameDiv.appendChild(iframeAll);
-		
-			}*/
-			
 }
 
 document.getElementById("mydate").innerHTML = Date();
 
-//.i.name;s
+//.i.name;
 function mySearch(){
 
-	var myMusicDiv, searchBox, music_div, search_div_music;
+	var searchDiv, searchBox, music_div, search_div_music;
 
-		myMusicDiv =  document.getElementById("musiclistDivGenres");
+		searchDiv =  document.getElementById("musiclistDivGenres");
 
 		searchBox = document.getElementById("search_music");
 		//alert(searchBox.value);
 
 		search_div_music = searchBox.value;
 
+		music_div = searchDiv.getElementsByTagName("div");
+		//console.log(music_div);
+
 
 		for (var i=0;i<music_div.length; i++){
-			var musictd = music_div[i].cells[0];
+			var musictd = music_div[i].name;
 			var musictext = musictd.innerText;
 			//console.log(musictd);
 			//musictd.innerHTML;
-		if (search_div_music == musictext) {
-			musictd.className = "backgroundgrey";
-		}else {
-			musictd.style.backgroundColor = "transparent";
-		}
-
-
-} 
+			if (search_div_music == musictext) {
+				musictd.className = "backgroundgrey";
+			}else {
+				musictd.style.backgroundColor = "transparent";
+			}
+		} 
+}
 
 
 /* function deleted(event){
